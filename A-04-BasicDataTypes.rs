@@ -37,5 +37,11 @@ fn main() {
     let your_name: &str = "Unknown";
     
     println!("Our names are {my_name} and {your_name}."); //Our names are Mustafa and Unknown.
+
+    //constant values
+
+    const THIS_YEAR: i16 = 2024;
+    
+    println!("Constant value: {}", THIS_YEAR); //Constant value: 2024
     
 }
