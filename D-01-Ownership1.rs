@@ -1,6 +1,8 @@
 fn main() {
 
     //we should understand what heap and stack are!
+
+    //be careful! heap!
     
     let name = String::from("Mustafa");
     
