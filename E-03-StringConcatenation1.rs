@@ -9,5 +9,7 @@ fn main() {
     let me = name + &surname;
     
     println!("{}", me); //Mustafa Buyukdereli
+    
+    //println!("{}", name); //value borrowed here after move
 
 }
