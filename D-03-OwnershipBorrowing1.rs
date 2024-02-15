@@ -1,7 +1,5 @@
 fn main() {
 
-    //clone!
-    
     let name = "Mustafa".to_string();
     
     let name2 = &name;
