@@ -29,6 +29,8 @@ fn main() {
     println!("A letter and smile: {first_letter}-{smile}"); //A letter and smile: A-😃
     
     // Compiler interprets a series of items in quotations as a "str" data type and creates a "&str" reference
+    // We can think of &str as a pointer to immutable string data
+    // &str references are immutable views into the text data that don't change as our program runs
     
     let my_name = "Mustafa";
     
