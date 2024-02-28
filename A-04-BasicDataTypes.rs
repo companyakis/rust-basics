@@ -43,5 +43,16 @@ fn main() {
     const THIS_YEAR: i16 = 2024;
     
     println!("Constant value: {}", THIS_YEAR); //Constant value: 2024
+
+    // Addition, Subtraction, and Multiplication
+    println!("3 + 12 = {} and 18 - 5 = {} and 45 * 3 = {}", 3u8 + 12, 18i8 - 5, 45 * 3);
+
+    // Integer and Floating point division
+    println!("49 / 12 = {} and 49.0 / 12.0 = {}", 9u32 / 2, 9.0 / 2.0);
+
+    /*
+    3 + 12 = 15 and 18 - 5 = 13 and 45 * 3 = 135
+    49 / 12 = 4 and 49.0 / 12.0 = 4.5
+    */
     
 }
